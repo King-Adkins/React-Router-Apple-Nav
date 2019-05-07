@@ -1,0 +1,22 @@
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
+const MainNavigation = () => {
+    return (
+        <nav className = 'navigation'>
+            <div className = 'nav-links'>
+            <NavLink to = '/'><i class="fab fa-apple"></i></NavLink>
+            <NavLink to = '/'>iPad</NavLink>
+            <NavLink to = '/'>iPhone</NavLink>
+            <NavLink to = '/'>Watch</NavLink>
+            <NavLink to = '/'>TV</NavLink>
+            <NavLink to = '/'>Music</NavLink>
+            <NavLink to = '/'>Support</NavLink>
+            <NavLink to = '/'><i class="fas fa-search"></i></NavLink>
+            <NavLink to = '/'><i class="fas fa-shopping-cart"></i></NavLink>
+            </div>
+        </nav>
+    );
+}
+
+export default MainNavigation;
